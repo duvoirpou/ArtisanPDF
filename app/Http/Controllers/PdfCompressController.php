@@ -21,7 +21,7 @@ class PdfCompressController extends Controller
         return view('compress.index');
     }
 
-    /* public function compress(Request $request)
+    public function compress(Request $request)
     {
         $request->validate([
             'pdf_file' => 'required|mimes:pdf|max:10240' // Max 10 MB
@@ -55,9 +55,9 @@ class PdfCompressController extends Controller
         } catch (\Exception $e) {
             return back()->with('error', 'Erreur lors de la compression : ' . $e->getMessage());
         }
-    } */
+    }
 
-    public function compress(Request $request)
+    /* public function compress(Request $request)
     {
         $request->validate([
             'pdf_file' => 'required|file|mimes:pdf|max:51200', // Max 50MB
@@ -83,7 +83,7 @@ class PdfCompressController extends Controller
         } catch (\Exception $e) {
             return back()->with('error', "Erreur lors de la compression : " . $e->getMessage());
         }
-    }
+    } */
 
     /* public function compress(Request $request)
     {
