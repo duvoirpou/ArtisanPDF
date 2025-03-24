@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p>&copy; {{ date('Y') }} Conv2PDF. Tous droits réservés.</p>
+                <p>&copy; {{ date('Y') }} ArtisanPDF. Tous droits réservés.</p>
             </div>
             <div class="col-md-6 text-end">
                 <ul class="list-inline">
