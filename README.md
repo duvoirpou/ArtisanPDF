@@ -1,4 +1,4 @@
-# Conv2PDF
+# ArtisanPDF
 
 Ce projet Laravel permet principalement de télécharger et de convertir des fichiers (Word, Excel, LibreOffice, etc.) en format PDF. Le fichier est converti sur le serveur, puis téléchargé automatiquement par l'utilisateur. Les fichiers sont ensuite supprimés du serveur après la conversion. D'autres fonctionnalités pourront être ajoutées si besoin
 
